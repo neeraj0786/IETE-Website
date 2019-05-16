@@ -862,6 +862,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 	left:60px;
 
 }
+@media screen and (max-width:768px)
+{
+	#team .member p{
+     display:none;
+	}
+}
 
 /* Contact Section
 --------------------------------*/
