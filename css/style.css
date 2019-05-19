@@ -595,7 +595,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /* Services Section
---------------------------------*/
+--------------------------------
 #services {
   background: #fff;
   background-size: cover;
@@ -666,9 +666,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
 }
-
+*/
 /* Call To Action Section
---------------------------------*/
+--------------------------------
 #call-to-action {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
@@ -712,9 +712,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #2dc997;
   border: 2px solid #2dc997;
 }
-
+*/
 /* Portfolio Section
---------------------------------*/
+--------------------------------
 #portfolio {
   background: #f7f7f7;
   padding: 80px 0;
@@ -805,9 +805,32 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-
+*/
 /* Team Section
 --------------------------------*/
+#teamhero {
+  width: 100%;
+  height: 14vh;
+ background-color:#333;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  #teamhero {
+    background-attachment: fixed;
+  }
+}
+
+#teamhero:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 #team {
   background: #fff;
   padding: 80px 0 60px 0;
@@ -871,20 +894,20 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Contact Section
 --------------------------------*/
-#conhero {
+#cohero {
   width: 100%;
-  height: 15vh;
- background-color:#000;
+  height: 14vh;
+ background-color:#333;
   position: relative;
 }
 
 @media (min-width: 1024px) {
-  #conhero {
+  #cohero {
     background-attachment: fixed;
   }
 }
 
-#conhero:before {
+#cohero:before {
   content: "";
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -996,6 +1019,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form button[type="submit"]:hover {
   background: #51d8ad;
 }
+
+
+
 
 /*--------------------------------------------------------------
 # Footer
