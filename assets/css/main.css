@@ -86,10 +86,10 @@
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   #header #logo h1 {
   font-size: 24px;
-  margin-left: 20px;
+  margin-left: 0;
   }
   #header #logo img {
     max-height: 40px;
@@ -1503,7 +1503,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 		}
 		@media screen and (max-width:736px){
 		 #banner h1 {
-			 font-size:3.5em;
+			 font-size:3em;
 		}
 		}
 
