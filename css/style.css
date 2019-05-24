@@ -892,6 +892,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 	#team .member p{
      display:none;
 	}
+	#team .member .pic {
+	 height:310px;
+	 overflow:hidden;
+	}
 }
 
 /* Contact Section

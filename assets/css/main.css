@@ -1501,7 +1501,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 			font-family: "Bungee Inline",cursive;
 			
 		}
-
+		@media screen and (max-width:736px){
+		 #banner h1 {
+			 font-size:3.5em;
+		}
+		}
 
 
 /* Main */
