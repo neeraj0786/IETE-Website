@@ -504,7 +504,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/about.jpg) center top no-repeat;
+  background: url(../img/iete.jpg) center top no-repeat;
   margin-bottom: 10px;
 }
 
@@ -893,7 +893,7 @@ body.mobile-nav-active #mobile-nav-toggle {
      display:none;
 	}
 	#team .member .pic {
-	 height:310px;
+	 height:320px;
 	 overflow:hidden;
 	}
 }
