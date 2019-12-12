@@ -1026,8 +1026,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #51d8ad;
 }
 
-
-
+/*--------------------------------------------------------------
+#Alumni
+--------------------------------------------------------------*/
+.card{
+/* border:none !important;
+ height: 30rem;*/
+}
+.company{
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+.card .social{
+  margin-top: 5px;;
+}
 
 /*--------------------------------------------------------------
 # Footer
