@@ -503,8 +503,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container .background {
-  min-height: 300px;
-  background: url(../img/iete.jpg) center top no-repeat;
+  min-height: 480px;
+  min-width:570px;
+  background: url(../img/un4.png) center top no-repeat;
   margin-bottom: 10px;
 }
 
