@@ -1069,7 +1069,7 @@ Project Showcase
   }
 }
 .card-pad {
-  padding: 15px;
+  padding: 20px;
 }
 .modal-header {
   border-bottom: 0 none;
@@ -1077,4 +1077,11 @@ Project Showcase
 
 .modal-footer {
   border-top: 0 none;
+}
+.proj-card-img {
+  margin-bottom: 8px;
+}
+.proj-img {
+  width: 50%;
+  margin-top: 20px;
 }
