@@ -52,17 +52,17 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-6">
                             <div class="card text-center w-500 mobile-space card-pad">
-                                <h2>ProjectName</h2>
+                                <h3 class="card-title">Measuring Air Quality using Chaotic Circuit</h3>
                              
-                                <img src="imgs/DP.jpg" class="card-img proj-card-img">
+                                <img src="./proj-showcase-img/airquality.jpg" class="card-img proj-card-img">
                                 <button class="btn btn-primary" data-target="#modal1" data-toggle="modal">Click</button>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
                             <div class="card text-center w-500 mobile-space card-pad">
-                                <h2>ProjectName</h2>
+                              <h3 class="card-title">Biometric <br> Attendance System</h3>
                                
-                                <img src="imgs/DP.jpg" class="card-img proj-card-img">
+                                <img src="./proj-showcase-img/bioattendance.jpg" class="card-img proj-card-img">
                                 <button class="btn btn-primary" data-target="#modal2" data-toggle="modal">Click</button>
                             </div>
                         </div>
@@ -103,33 +103,43 @@
 
 
         <section>
-            <div class="modal" id="modal1">
+            <div class="modal modal-showcase" id="modal1">
                 <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
+                  <div class="modal-content showcase-content">
               
                     <!-- Modal Header -->
                     <div class="modal-header">
-                      <h4 class="col-12 modal-title">Project Heading</h4>
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Measuring Air Quality using Chaotic Circuit</h4>
                     </div>
               
                     <!-- Modal body -->
                     <div class="modal-body">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                       Curabitur maximus enim nibh, in dapibus ligula porttitor id. Nullam tristique aliquam ipsum. Donec eu odio finibus ante placerat venenatis a eget lorem. Sed nisl lacus, volutpat eget bibendum vel, varius id magna. Nam hendrerit viverra tempus.
-                       Morbi aliquet suscipit leo nec congue. Cras facilisis faucibus faucibus. 
+                      <div class="proj-desp">
+                        The circuit measures the level of CO2 in the classroom environment. 
+                        As the level touches a certain amount of CO2 the sensor gives an 
+                        indication that it has reached a hazardous level and the windows 
+                        should be opened. 
+                        For this, a chaotic circuit is being used to increase the sensitivity 
+                        of the sensor, so that even the slightest increase in the level of CO2 can be detected.
+
+                      </div>  
                       <div class="container-fluid">
                         <div class="row">
-                          
-                          <img src="imgs/DP.jpg" class="card-img proj-img col-lg-6  col-12 mx-auto">
-                          <img src="imgs/DP.jpg" class="card-img proj-img col-lg-6  col-12 mx-auto">
+                          <img src="./proj-showcase-img/airquality1.jpg" class="card-img proj-img col-lg-6  col-12 mx-auto">
+                          <img src="./proj-showcase-img/airquality2.jpg" class="card-img proj-img col-lg-6  col-12 mx-auto">
                         </div>
                       </div>
-                  </div>
+                      <div class="credits">
+                        <h4 class="proj-by">By</h4>
+                        <h4 class="proj-by">Harshit Singh</h4>
+                        <h4 class="proj-by">Shreyas Agarwal</h4>
+                      </div>  
+                    </div>
               
                     <!-- Modal footer -->
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-danger" data-dismiss="modal">Link to project</button>
+                      <button type="button" onclick="window.open('https://docs.google.com/presentation/d/1muB6iYmOruMGMReRKw_m1JQIrSPzg7yRxLoKbOhKc7s/edit?usp=drivesdk', '_blank');" class="btn btn-success">Link to project</button>
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                     </div>
               
                   </div>
@@ -137,32 +147,41 @@
               </div>
         </section>
         <section>
-            <div class="modal" id="modal2">
+            <div class="modal modal-showcase" id="modal2">
                 <div class="modal-dialog modal-dialog-centered">
-                  <div class="modal-content">
+                  <div class="modal-content showcase-content">
               
                     <!-- Modal Header -->
                     <div class="modal-header">
-                      <h4 class="modal-title">Modal Heading</h4>
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title w-100">Biometric Attendance System</h4>
                     </div>
               
                     <!-- Modal body -->
                     <div class="modal-body">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                         Curabitur maximus enim nibh, in dapibus ligula porttitor id. Nullam tristique aliquam ipsum. Donec eu odio finibus ante placerat venenatis a eget lorem. Sed nisl lacus, volutpat eget bibendum vel, varius id magna. Nam hendrerit viverra tempus.
-                         Morbi aliquet suscipit leo nec congue. Cras facilisis faucibus faucibus. 
+                      <div class="proj-desp">
+                        Biometric time and attendance systems use the fingerprints of students to verify 
+                        who is actually clocking in and clocking out of class each day. 
+                        The system scans the finger of the student, coordinates are determined 
+                        and then the system maps the endpoints and intersections of the fingerprint. Biometric systems
+                        are easy to use, easy to install and 
+                        track data regarding students for management to analyse.
+                      </div> 
                         <div class="container-fluid">
                           <div class="row">
                             
-                            <img src="imgs/DP.jpg" class="card-img proj-img col-lg-6  col-12 mx-auto">
-                            <img src="imgs/DP.jpg" class="card-img proj-img col-lg-6  col-12 mx-auto">
+                            <img src="./proj-showcase-img/bioattendance1.jpg" class="card-img proj-img col-lg-6  col-12 mx-auto">
+                            <img src="./proj-showcase-img/bioattendance.jpg" class="card-img proj-img col-lg-6  col-12 mx-auto">
                           </div>
                         </div>
+                        <div class="credits">
+                          <h4 class="proj-by">By</h4>
+                          <h4 class="proj-by">Shantanu Choudhary </h4>
+                        </div> 
                     </div>
               
                     <!-- Modal footer -->
                     <div class="modal-footer">
+                      <button type="button" onclick="window.open('https://drive.google.com/file/d/1KXPh8_9_kliTCRPjfKm8oDO-MMb1IDw2/view', '_blank');" class="btn btn-success">Link to project</button>
                       <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                     </div>
               
