@@ -1064,7 +1064,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 Project Showcase
 ----------------------------------------------------------------------*/
 .proj-container{
-  width: 40%;
+  width: 60%;
 
 }
 .card-pad {
@@ -1085,6 +1085,9 @@ Project Showcase
 .proj-img {
   width: 50%;
   margin-top: 30px;
+}
+.proj-img-3{
+  height: 250px;
 }
 .card-title{
   color:#000000;
@@ -1115,6 +1118,7 @@ Project Showcase
 .proj-title{
   font-family: 'Libre Baskerville', serif;
 }
+
 
 @media(max-width:768px){
   .proj-container{
