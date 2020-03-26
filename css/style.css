@@ -1063,9 +1063,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------------
 Project Showcase
 ----------------------------------------------------------------------*/
+.proj-container{
+  width: 40%;
 
+}
 .card-pad {
-  padding: 20px;
+  padding: 17px;
   border-color: #000000;
 }
 .modal-header {
@@ -1101,6 +1104,7 @@ Project Showcase
   color: #000000;
   text-align: center;
   margin: 2px;
+  font-family: 'Libre Baskerville', serif;
 }
 .credits{
   margin-top: 20px;
@@ -1108,9 +1112,12 @@ Project Showcase
 .proj-desp{
   text-align: center;
 }
+.proj-title{
+  font-family: 'Libre Baskerville', serif;
+}
 @media(max-width:768px){
   .mobile-space{
-    margin: 40px;
+    margin-top: 20px;
   }
   .modal-showcase{
     margin:40px;
