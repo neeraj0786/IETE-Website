@@ -1116,8 +1116,11 @@ Project Showcase
   font-family: 'Libre Baskerville', serif;
 }
 @media(max-width:768px){
+  .proj-container{
+    width: 100%;
+  }
   .mobile-space{
-    margin-top: 20px;
+    margin: 40px;
   }
   .modal-showcase{
     margin:40px;
