@@ -1115,6 +1115,7 @@ Project Showcase
 .proj-title{
   font-family: 'Libre Baskerville', serif;
 }
+
 @media(max-width:768px){
   .proj-container{
     width: 100%;
