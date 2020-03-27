@@ -1060,3 +1060,74 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ccc;
 }
+/*--------------------------------------------------------------------
+Project Showcase
+----------------------------------------------------------------------*/
+.proj-container{
+  width: 60%;
+
+}
+.card-pad {
+  padding: 17px;
+  border-color: #000000;
+}
+.modal-header {
+  border-bottom: 0 none;
+}
+
+.modal-footer {
+  border-top: 0 none;
+}
+.proj-card-img {
+  margin-bottom: 20px;
+  height: 220px;
+}
+.proj-img {
+  width: 50%;
+  margin-top: 30px;
+}
+.proj-img-3{
+  height: 250px;
+}
+.card-title{
+  color:#000000;
+}
+
+.modal-title{
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+}
+.showcase-content{
+  border-color: #000000;
+  border-width: 3px;
+  color: #000000;
+}
+.proj-by{
+  color: #000000;
+  text-align: center;
+  margin: 2px;
+  font-family: 'Libre Baskerville', serif;
+}
+.credits{
+  margin-top: 20px;
+}
+.proj-desp{
+  text-align: center;
+}
+.proj-title{
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+@media(max-width:768px){
+  .proj-container{
+    width: 100%;
+  }
+  .mobile-space{
+    margin: 40px;
+  }
+  .modal-showcase{
+    margin:40px;
+  }
+}
